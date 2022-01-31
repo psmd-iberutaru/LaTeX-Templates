@@ -1,0 +1,7 @@
+
+# Don't need any of the LaTeX build files.
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.pdf
