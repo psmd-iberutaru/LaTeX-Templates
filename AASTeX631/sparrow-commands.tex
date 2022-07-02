@@ -1,3 +1,19 @@
+% This file should not be changed as it is part of the template itself.
+% If you want to define your own commands and macros, please use 
+% "sparrow-macros.tex".
+
+% Adding some more fancyref formatting.
+\newcommand*{\fancyrefsubseclabelprefix}{subsec}
+\Frefformat{plain}{\fancyrefsubseclabelprefix}{Subsection~#1}
+\frefformat{plain}{\fancyrefsubseclabelprefix}{subsection~#1}
+
+\newcommand*{\fancyrefsubsubseclabelprefix}{subsubsec}
+\Frefformat{plain}{\fancyrefsubsubseclabelprefix}{Subsection~#1}
+\frefformat{plain}{\fancyrefsubsubseclabelprefix}{subsection~#1}
+
+\newcommand*{\fancyrefexlabelprefix}{ex}
+\Frefformat{plain}{\fancyrefexlabelprefix}{Example~#1}
+\frefformat{plain}{\fancyrefexlabelprefix}{example~#1}
 
 
 %% Math symbols
